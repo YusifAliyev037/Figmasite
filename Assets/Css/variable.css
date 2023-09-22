@@ -1,0 +1,14 @@
+:root {
+    /*Colors*/
+
+    --maincolor:#1090CB;
+    --mainwhite:#ffffff;
+    --mainblack:#000000;
+    --silver:#5C5C5C;
+    --silver10:#C4C4C4;
+
+
+
+    /*Fonts*/
+    --fontPoppins:'Poppins', sans-serif;
+}

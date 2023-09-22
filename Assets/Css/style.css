@@ -1,0 +1,114 @@
+@import url("./reset.css");
+@import url("./variable.css");
+
+body{
+    background: rgba(16, 144, 203, 0.10);
+    font-family: var(--fontPoppins);
+}
+.header{
+    height: 102px;
+    background-color: var(--mainwhite);
+    border: 1px solid var(--silver10);
+    padding: 31px 32px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: var(--maincolor);
+font-size: 29px;
+font-weight: 700;
+line-height: normal;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 168px;
+}
+.nav-title{
+    color: var(--maincolor);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.nav-pain{
+    display: flex;
+    gap: 80px;
+}
+.btn-hed{
+    border-radius: 6px;
+    background-color: var(--maincolor);
+    border: none;
+    padding: 10px 26px;
+    color: var(--mainwhite);
+font-size: 13px;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 24px;
+}
+.title-1{
+    padding: 120px;
+}
+.title-1-1 {
+    color:var(--mainblack);
+font-size: 40px;
+font-weight: 600;
+line-height: normal;
+}
+.mob-title{
+    color: var(--maincolor);
+font-size: 40px;
+font-weight: 600;
+line-height: normal;
+}
+.subtitle-1-1{
+    color:var(--silver);
+font-size: 16px;
+font-weight: 400;
+line-height: 204.3%; /* 32.688px */
+margin-bottom: 64px;
+}
+.btn-cnt{
+    border-radius: 10px;
+    background-color: var(--maincolor);
+    border: none;
+    padding: 10px 54px;
+    color:var(--mainwhite);
+font-size: 16px;;
+font-weight: 400;
+line-height: 204.3%; /* 32.688px */
+cursor: pointer;
+margin-right: 14px;
+
+}
+.btn-vw{
+    border-radius: 10px;
+border: 1px solid var(--maincolor);
+background:var(--mainwhite);
+color:var(--maincolor);
+font-size: 16px;
+font-weight: 400;
+line-height: 204.3%; /* 32.688px */
+    cursor: pointer;
+    padding: 10px 54px;
+}
+    
+.regtangels{
+    background-color: var(--mainwhite);
+    height: 170px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 44px 130px;
+}
