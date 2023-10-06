@@ -265,6 +265,7 @@ height: 459px;
 .pos-btn1{
     align-items: center;
     border-radius: 10px;
+    cursor: pointer;
 background:var(--maincolor);
 border: none;
 width: 153px;
@@ -279,6 +280,7 @@ line-height: 170%; /* 27.2px */
 .pos-btn2{
     align-items: center;
     border-radius: 10px;
+    cursor: pointer;
 background:var(--mainwhite);
 border: none;
 width: 153px;
@@ -327,7 +329,7 @@ line-height: 159%; /* 38.16px */
 .sec-8-h3{
     position: absolute;
     right: 390px;
-    bottom: -150px;
+    bottom: -250px;
     color:var(--black1);
 text-align: center;
 font-family: Poppins;
@@ -352,6 +354,7 @@ line-height: 170%; /* 27.2px */
 .btn-blk{
     border-radius: 10px;
 background: var(--mainblack);
+cursor: pointer;
 border: none;
 width: 173px;
 height: 67px;
@@ -363,8 +366,85 @@ font-style: normal;
 font-weight: 500;
 line-height: 170%; /* 27.2px */
 }
+.form-control{
+    border: none;
+}
 .type-name{
     position:absolute;
-    bottom:-300px;
+    bottom:-400px;
     right: 410px;
+}
+.star{
+    position: absolute;
+    left: -120px;
+    bottom: 360px;
+}
+.pai{
+    position: absolute;
+    bottom: 290px;
+}
+.section-9{
+    position: absolute;
+    bottom: -4150px;
+    display: flex;
+    gap: 100px;
+    padding: 82px 100px;
+    
+    
+}
+.sec-9-1{
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+.sec-9-2{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.sec-9-3{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.sec-9-4{
+    display: flex;
+    gap: 16px;
+   
+}
+.sec-9-1 h3{
+    color: #00329B;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+}
+.sec-9-title{
+    color: #515151;
+font-size: 16px;
+font-weight: 400;
+line-height: 186.3%; /* 29.808px */
+}
+.sec-9-title:first-child{
+    color: var(--mainblack);
+font-size: 17px;
+font-weight: 500;
+line-height: normal;
+}
+.sec-9-3 h3{
+    color: var(--mainblack);
+font-size: 17px;
+font-weight: 500;
+line-height: normal;
+}
+.footer{
+    position: absolute;
+    bottom: -4150px;
+    height: 81px;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.foot-title{
+ text-align: center;
+ border-top: 1px solid #D2D2D2;
 }
