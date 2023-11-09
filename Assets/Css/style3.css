@@ -228,14 +228,17 @@ font-size: 36px;
 font-weight: 500;
 line-height: 177.9%; /* 64.044px */
 letter-spacing: 0.36px;
+margin-top: 98px;
+margin-left: 98px;
+margin-bottom: 64px;
 }
 .sec5-card{
     gap: 84px;
+   
 }
 
 .card-5{
     width: 334px;
-    
 }
 .section-8{
     background-color: var(--backround);
@@ -314,7 +317,8 @@ line-height: 170%; /* 27.2px */
     display: flex;
     gap: 100px;
     padding: 82px 100px;
-    
+    position: absolute;
+    bottom: -3300px;
     
 }
 .sec-9-1{
