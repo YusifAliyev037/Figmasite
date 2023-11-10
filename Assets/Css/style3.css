@@ -342,7 +342,7 @@ line-height: 170%; /* 27.2px */
    
 }
 .sec-9-1 h3{
-    color: #00329B;
+    color: var(--bluefont);
 font-size: 16px;
 font-weight: 700;
 line-height: normal;
